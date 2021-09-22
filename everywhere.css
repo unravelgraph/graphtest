@@ -15,6 +15,7 @@ li.menutitre a {color: var(--gray)!important;}
 .menutitre a {color: var(--gray)!important;}
 .navmyr li {list-style-type: none;height: 6vh;}
 .navmyr a i.cp {color: var(--main1);}
+.navmyr a {color: var(--gray)!important;}
 .menutitre {color:var(--gray)!important;text-align:left;border-bottom:solid 1px var(--gray);border-image:linear-gradient(45deg,var(--main1),var(--main2)) 1;box-shadow:0 0 10px var(--main2))!important;font-family:'Overpass Mono',monospace;text-transform:uppercase;font-size:1.2em;}
 .navmyr .inputbox, .navmyr input[type="text"]{background-color:transparent;border-bottom:1px solid var(--gray);border-image:linear-gradient(45deg,var(--main1),var(--main2)) 1;box-shadow:0 0 10px var(--main2))!important;color:#fff;cursor:text;font-size:1.2rem!important;padding-left:24px;cursor:pointer;font-family:'overpass',monospace;text-transform:uppercase;height:10px}
 .input-wrap button{font-size:1.3em;height:14px;line-height:10px;position:absolute;left:0;text-align:center;width:14px;color:var(--main1)}
