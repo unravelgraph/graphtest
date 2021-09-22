@@ -8,7 +8,7 @@ a.mainmenu {background: black; border-radius: 100%;}
 .glitch::after{content:attr(data-text);position:absolute;top:0;left:0;width:100%;height:100%;left:-2px;text-shadow:-2px 0 var(--main1),2px 2px var(--main2);animation:glitch-anim2 1s infinite linear alternate-reverse}
 
 //* nav perso *//
-a.menutitre {color: var(--gray)!important;} 
+li.menutitre a {color: var(--gray)!important;} 
 .menutitre a:link {color: var(--gray)!important;}
 .menutitre a:visited {color: var(--gray)!important;}
 .menutitre a:active {color: var(--gray)!important;}
