@@ -32,14 +32,14 @@ a#fa_welcome:hover, a#fa_notifications:hover {border-bottom: 1px solid var(--gra
 .switcheroo__squircles{display:flex;margin:0;padding:0;list-style:none;padding:var(--gap-size);gap:var(--gap-size);position:relative;bottom:0}
 .switcheroo[direction="horizontal"] .switcheroo__squircles{flex-direction:row}
 .switcheroo[direction="vertical"] .switcheroo__squircles{flex-direction:column-reverse;align-items:center}
-.switcheroo[theme="discord"] .switcheroo__squircle{position:relative;display:flex;align-items:center;justify-content:center;background:var(--fond);border:1px solid var(--main1);border-image:linear-gradient(45deg,var(--main1),var(--main2)) 1;box-shadow:0 0 10px var(--main2))!important;width:var(--notactive);height:var(--notactive);cursor:pointer}
+.switcheroo[theme="discord"] .switcheroo__squircle{position:relative;display:flex;align-items:center;justify-content:center;background:var(--fond);border:1px solid var(--main1);border-image:linear-gradient(45deg,var(--main1),var(--main2)) 1;width:var(--notactive);height:var(--notactive);cursor:pointer}
 .switcheroo[theme="discord"] .switcheroo__squircle:hover{background:linear-gradient(45deg,var(--main1),var(--main2))}
 .switcheroo[theme="discord"][direction="vertical"] .switcheroo__squircle:before{content:"";width:100%;height:100%;display:block;background-color:var(--color-pill);position:absolute;border-radius:4px;top:50%;transform:translate(-100%,-50%) scale(0);transition:transform 128ms,opacity 64ms;pointer-events:none;opacity:0}
 .switcheroo[theme="discord"] .switcheroo__squircle.active{cursor:default;width:var(--active);height:var(--active)}
 .switcheroo[theme="discord"][direction="vertical"] .switcheroo__squircle:hover:before{opacity:0;transform:translate(-100%,-50%) scale(0.5)}
 .switcheroo[theme="discord"][direction="vertical"] .switcheroo__squircle.active:before{opacity:0}
 .switcheroo__popper{position:absolute;width:-webkit-max-content;width:max-content;z-index:0;opacity:0;transition:opacity 64ms var(--ease),transform 128ms var(--ease-bounce);pointer-events:none;color:#fff}
-.switcheroo[direction="vertical"] .switcheroo__popper{right:150%;top:50%;transform-origin:right;transform:translateY(50%) scale(0.98);color:var(--gray);text-align:right;border-bottom:solid 1px var(--gray);border-image:linear-gradient(45deg,var(--main1),var(--main2)) 1;box-shadow:0 0 10px var(--main2))!important;font-family:'Overpass Mono',monospace;text-transform:uppercase;font-size:1.2em;}
+.switcheroo[direction="vertical"] .switcheroo__popper{right:150%;top:50%;transform-origin:right;transform:translateY(50%) scale(0.98);color:var(--gray);text-align:right;border-bottom:solid 1px var(--gray);border-image:linear-gradient(45deg,var(--main1),var(--main2)) 1;font-family:'Overpass Mono',monospace;text-transform:uppercase;font-size:1.2em;}
 .switcheroo[direction="vertical"] .switcheroo__squircle:hover .switcheroo__popper{opacity:1;transform:translateY(-50%) scale(1)}
 .switcheroo__squircle:hover:before{opacity:1;transform:translate(-100%) scale(0.5)}
 .switcheroo[theme="discord"] .switcheroo__avatar{position:relative;width:100%;height:100%;border-radius:inherit;overflow:hidden}
@@ -55,7 +55,7 @@ a#fa_welcome:hover, a#fa_notifications:hover {border-bottom: 1px solid var(--gra
 .switcheroo__form-input{padding:6px!important;font-size:16px!important;border-radius:4px!important;width:100%!important;border-bottom:2px solid var(--main1)!important;background-color:var(--color-bg)!important;color:var(--color-text)!important;cursor:text!important}
 .switcheroo__form-button{border-radius:8px;padding:8px;border:none;outline:none;box-shadow:none;text-transform:uppercase;font-size:10px;align-self:flex-end;color:#fff;background-color:var(--main2)}
 .monomer-overlay{position:fixed;z-index:999;top:0;left:0;opacity:0;width:100%;height:100%;transition:.2s opacity ease;background:rgba(0,0,0,0.6)}
-.monomer-modal{position:fixed;z-index:999;top:50%;left:50%;opacity:0;width:94%;padding:24px 20px;transition:.2s opacity ease;transform:translate(-50%,-50%);background:var(--transparent1)!important;border:1px solid var(--main2);border-image:linear-gradient(45deg,var(--main1),var(--main2)) 1;box-shadow:0 0 10px var(--main2))!important;color:var(--color-text)}
+.monomer-modal{position:fixed;z-index:999;top:50%;left:50%;opacity:0;width:94%;padding:24px 20px;transition:.2s opacity ease;transform:translate(-50%,-50%);background:var(--transparent1)!important;border:1px solid var(--main2);border-image:linear-gradient(45deg,var(--main1),var(--main2)) 1;color:var(--color-text)}
 .monomer-modal.monomer-open.monomer-anchored{top:20px;transform:translate(-50%,0)}
 .monomer-modal.monomer-open{opacity:.8}
 .monomer-overlay.monomer-open{opacity:.8}
