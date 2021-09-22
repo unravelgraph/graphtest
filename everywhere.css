@@ -7,6 +7,17 @@ a.mainmenu {background: black; border-radius: 100%;}
 .glitch::before{content:attr(data-text);position:absolute;top:0;left:0;width:100%;height:100%;left:2px;text-shadow:-2px 0 var(--main2);clip:rect(44px,450px,56px,0);animation:glitch-anim 5s infinite linear alternate-reverse}
 .glitch::after{content:attr(data-text);position:absolute;top:0;left:0;width:100%;height:100%;left:-2px;text-shadow:-2px 0 var(--main1),2px 2px var(--main2);animation:glitch-anim2 1s infinite linear alternate-reverse}
 
+//* nav perso *//
+li.menutitre a {color: var(--gray)!important;opacity: 0.8;transition: 0.5s;}
+.navmyr a {color: var(--gray)!important;opacity: 0.8;transition: 0.5s;}
+li.menutitre a:hover {padding-left: 20px;transition: 0.5s;}
+.navmyr a:hover {padding-left: 20px;transition: 0.5s;}
+.navmyr li {list-style-type: none;height: 6vh;}
+.navmyr a i.cp {color: var(--main1);padding-right: 3px;}
+.menutitre {color:var(--gray)!important;text-align:left;border-bottom:solid 1px var(--gray);border-image:linear-gradient(45deg,var(--main1),var(--main2)) 1;font-family:'Overpass Mono',monospace;text-transform:uppercase;font-size:1.2em;}
+.navmyr .inputbox, .navmyr input[type="text"]{background-color:transparent;border-bottom:1px solid var(--gray);border-image:linear-gradient(45deg,var(--main1),var(--main2)) 1;color:#fff;cursor:text;font-size:1.2em!important;padding-left:21px;cursor:pointer;font-family:'overpass',monospace;text-transform:uppercase;height:10px;}
+.input-wrap button{font-size:1.4em;height:14px;line-height:10px;position:absolute;left:0;text-align:center;width:14px;color:var(--main1);}
+
 //* toolbar *//
 #fa_toolbar, .fa_fix, .fa_toolbar_L_Sized, #fa_toolbar #fa_right .fa_separator {background-color: transparent!important;}
 #fa_toolbar {background-color: transparent!important;color: var(--gray);font-family: 'Overpass';font-size: 1.2rem;text-transform:uppercase; right: 30px; top: 30px; z-index: 999!important;}
