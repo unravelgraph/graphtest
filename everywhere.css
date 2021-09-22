@@ -1,5 +1,5 @@
 //* main title *//
-.headerbar {height: 40vh;}
+.headerbar {height: 250px;}
 a.maintitle {color: var(--main2) !important; opacity: 0.7;}
 a.maintitle:hover {color: var(--main2) !important; opacity: 1; transition: 0.5s; text-shadow: 0px 2px 4px var(--main2);}
 a.mainmenu {background: black; border-radius: 100%;}
